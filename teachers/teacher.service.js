@@ -96,7 +96,7 @@ if(!isValid){
  }
 
  await Teacher.updateOne(
-   { _id: productId },
+   { _id: teacherId },
    {
      $set: {
        email:newData.email,
